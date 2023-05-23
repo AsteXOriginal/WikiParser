@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 
 url = '' <-- #Paste the page link
 
+
 response = requests.get(url)
 
 if response.status_code == 200:
