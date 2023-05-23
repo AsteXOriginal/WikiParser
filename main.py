@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 
-url = '' <-- #Paste the page link
+url = '' <-- #Paste the page link to see the title
 
 
 response = requests.get(url)
